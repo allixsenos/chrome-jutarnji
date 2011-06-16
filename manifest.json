@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "jutarnji.js" ],
+      "matches": [ "http://*.jutarnji.hr/*", "http://jutarnji.hr/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Skip stupid ads in galleries at www.jutarnji.hr",
+   "icons": {
+      "128": "icon2.png"
+   },
+   "name": "Jutarnji.hr gallery ad skipper",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.3"
+}
